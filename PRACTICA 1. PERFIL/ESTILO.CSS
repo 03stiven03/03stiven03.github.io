@@ -1,0 +1,168 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #f0f0f0, #e0e0e0);
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    /* Hace que el fondo cubra toda la pantalla */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #20202231, #eee5e5);
+    margin: 0;
+    padding: 0;
+
+
+
+
+
+}
+
+/* Encabezado */
+header {
+    background-image: url('maya.jpg');
+    /* Ruta a la imagen */
+    background-size: cover;
+    /* La imagen cubre todo el espacio del encabezado */
+    background-position: center;
+    /* Centra la imagen */
+    color: rgb(226, 220, 220);
+    /* El color del texto */
+    text-align: center;
+    padding: 50px 0;
+    /* Espacio dentro del encabezado */
+    font-size: 2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /*para resaltar las letras*/
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    max-width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: justify;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo blanco semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    /* Bordes redondeados */
+    backdrop-filter: blur(8px);
+    /* Aplica difuminado a la capa principal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Sombra para mayor profundidad */
+
+
+
+
+
+
+}
+
+/* Imagen */
+img {
+    width: 100%;
+    /* La imagen ocupa todo el ancho del main */
+    height: 300px;
+    /* Ajusta la altura según lo que prefieras */
+    object-fit: cover;
+    /* Asegura que la imagen se ajuste bien al espacio sin distorsión */
+    border-radius: 0;
+    /* Elimina cualquier borde redondeado */
+    display: block;
+    /* Asegura que la imagen se muestre como un bloque */
+    margin: 0 auto;
+    /* Centra la imagen si es necesario */
+
+
+}
+
+/* Párrafos y listas */
+p {
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+h2,
+h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #555;
+    text-align: justify;
+}
+
+/* Enlaces */
+a {
+    color: #ff5722;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+/* Enlaces con íconos */
+a i {
+    margin-right: 0px;
+    /* Espacio entre el ícono y el texto */
+}
+
+a {
+    color: #ff5722;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+/* Otros estilos generales ya proporcionados */
